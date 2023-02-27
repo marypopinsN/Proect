@@ -4,7 +4,7 @@
     color: blue;
     font-size: 40px;
     width: 100%;
-    display: flex;/*инф. указана в макете нет у преподавателя*/
+    display: flex;
     justify-content: center;
 }
 .shop {
@@ -14,46 +14,43 @@
     font-size: 16px;
 }
 .photo-baner {
-    width: 100%;/*адаптивный элемент*/
-    max-width: 1700px; /*адаптивный элемент max*/
-    height: auto; /*поменяли 316px на auto. получили адаптив картинки*/
+    width: 100%;
+    max-width: 1700px;
+    height: auto; 
     border: 2px solid #EA5D21;
     margin: 0 auto;
-    display: flex; /*эта команда говорит: содержимое кнопки - ячейка flex*/
-    justify-content: center; /* justify-content (выравнивание содержимого)
-    контент content ячейки текст  будет по середине center от края по оси х*/
+    display: flex;
+    justify-content: center; 
     align-items: center;
 }
-/*BODY*/
+/*MAIN*/
 
 .photo-love {
     width: 100%;
-    max-width: 400px; /* адаптивный элемент max*/
-    min-height: 300px; /*поменяли 316px на auto. получили адаптив картинки*/
+    max-width: 400px;
+    min-height: 300px;
     margin: 0 auto;
-    display: flex; /*эта команда говорит: содержимое кнопки - ячейка flex*/
-    justify-content: center; /* justify-content (выравнивание содержимого)
-    контент content ячейки текст  будет по середине center от края по оси х*/
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 .style-brend {
     color: red;
     font-size: 20px;
-    display: flex; /*эта команда говорит: содержимое кнопки - ячейка flex*/
-    justify-content: center; /* justify-content (выравнивание содержимого)
-    контент content ячейки текст  будет по середине center от края по оси х*/
+    display: flex;
+    justify-content: center; 
     align-items: center;
 }
 .text-about { 
      color: coral; 
      font-size: xx-large;
-     display: flex;/*инф. указана в макете нет у преподавателя*/
+     display: flex;
      justify-content: center;
 }
 .text-feedback {
     color: blue;
     font-size: 20px;
-    display: flex;/*инф. указана в макете нет у преподавателя*/
+    display: flex;
     justify-content: center;
 }
 .shops {
@@ -67,13 +64,12 @@
 }
 .li {
     color: coral; 
-    display: flex;/*инф. указана в макете нет у преподавателя*/
-    justify-content: space-between;    /*с помощью этого элемента кнопка входа стоит отдельно.
-    выравнивание содержимого: пробел между*/
-    width: 100%;/*адаптивный элемент*/
-    flex-wrap: wrap; /*Позволяет двигаться словам в зависимости от стиля экрана. адаптивный элемент*/
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    flex-wrap: wrap;
     box-sizing: border-box;
-    max-width: 1300px; /*адаптивный элемент max*/
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 15px;
     min-height: 80px;
@@ -83,6 +79,7 @@ table, tr, th, td {
     border: 1px solid red;
     width: 300px;
     height: 10px;
+    align-items: center;
  }
  /*@media (max-width: 1500px) {
     .table {
